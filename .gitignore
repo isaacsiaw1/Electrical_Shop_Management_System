@@ -1,0 +1,21 @@
+# XAMPP / OS junk
+.DS_Store
+Thumbs.db
+
+# Composer dependencies (if you use composer)
+vendor/
+
+# Environment file with passwords - NEVER upload
+.env
+
+# Logs and temp
+*.log
+*.tmp
+error_log
+
+# IDE
+.vscode/
+.idea/
+
+# BUT DO NOT IGNORE YOUR DATABASE - KEEP THIS
+!electricalshopdb.sql
